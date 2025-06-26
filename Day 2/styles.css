@@ -1,0 +1,29 @@
+ul{
+    display :flex;
+    align-items: center;
+    justify-content: center;
+    gap : 20px;
+    list-style: none;
+    background-color: dimgray;
+    height:50px;
+    
+}
+a{
+    color :white;
+    text-decoration: none;
+}
+a:hover{
+    color :black;
+    text-decoration: underline;
+}
+li:hover{
+    background-color: white;
+    padding: 10px;
+}
+#intro{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
